@@ -57,6 +57,7 @@ namespace EvolutionExample
             {
                 winnerBrain = winners.FirstOrDefault().Brain.Clone();
                 gc.GameOver -= Gc_GameOver;
+                btnStart.Visible = true;
                 return;
             }
 
